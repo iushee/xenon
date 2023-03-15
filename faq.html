@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FAQ - Active Online Software Page</title>
+    <meta property="og:title" content="FAQ - Active Online Software Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+      ></script>
+      <link href="./faq.css" rel="stylesheet" />
+
+      <div class="faq-container">
+        <section class="faq-hero">
+          <div class="faq-menu">
+            <div id="mobile-menu" class="faq-mobile-navigation">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-no9b-1500h.png"
+                class="faq-logo"
+              />
+              <div class="faq-links">
+                <span class="Link">Solutions</span>
+                <span class="Link">How it works</span>
+                <span class="Link">Prices</span>
+              </div>
+              <div id="close-mobile-menu" class="faq-close-mobile-menu">
+                <svg viewBox="0 0 804.5714285714286 1024" class="faq-icon">
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-desktop-navigation">
+              <nav class="faq-centered">
+                <div class="faq-left">
+                  <a href="index.html" class="faq-navlink">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pastedimage-no9b-1500h.png"
+                      class="faq-logo1"
+                    />
+                  </a>
+                  <div class="faq-links1">
+                    <a href="features.html" class="faq-navlink1 Link">
+                      Features
+                    </a>
+                    <a href="prices.html" class="faq-navlink2 Link">Prices</a>
+                    <a href="faq.html" class="faq-navlink3 Link">FAQ</a>
+                  </div>
+                </div>
+                <div class="faq-right">
+                  <a href="sign-in.html" class="faq-sign-in Link">Log in</a>
+                  <div class="faq-get-started">
+                    <a href="sign-up.html" class="faq-navlink4">Sign Up</a>
+                  </div>
+                  <div id="open-mobile-menu" class="faq-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pastedimage-yxbd.svg"
+                      class="faq-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+              ></dangerous-html>
+            </div>
+          </div>
+        </section>
+        <section class="faq-faq">
+          <div class="faq-heading">
+            <span class="faq-text03 title">Frequently asked questions</span>
+            <span class="faq-text04">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
+            </span>
+          </div>
+          <div class="faq-accordion">
+            <div data-faq="closed" class="accordionContainer">
+              <div class="faq-header">
+                <span class="faq-text05">
+                  — What is sit amet, consectetur adipiscing elit, sed do?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="faq-text06">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div class="accordionContainer">
+              <div class="faq-header1">
+                <span class="faq-text07">
+                  — Why is dolore magna aliqua excepteur sint
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="faq-text08">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="faq-header2">
+                <span class="faq-text09">
+                  — Is excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="faq-text10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="faq-header3">
+                <span class="faq-text11">
+                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                  aut fugit, sed quia consequuntur magni
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="faq-text12">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="faq-header4">
+                <span class="faq-text13">
+                  — Is minim veniam quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="faq-text14">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <dangerous-html
+              html="<script>
+// Accordion - Code Embed
+
+const accordionContainers = document.querySelectorAll('.accordionContainer'); // All accordion containers
+const accordionContents = document.querySelectorAll('.accordionContent'); // All accordion content
+const accordionIcons = document.querySelectorAll('.accordionIcon'); // All accordion icons
+
+accordionContents.forEach((accordionContent) => {
+    accordionContent.style.display = 'none'; //Hides all accordion contents
+});
+
+accordionContainers.forEach((accordionContainer, index) => {
+    accordionContainer.addEventListener('click', () => {
+        accordionContents.forEach((accordionContent) => {
+            accordionContent.style.display = 'none'; //Hides all accordion contents
+        });
+
+        accordionIcons.forEach((accordionIcon) => {
+            accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+        });
+
+        if (accordionContainer.classList.contains('accordion-open')) { // Checks if this container has class 'accordion-open'
+            accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open'
+        } else {
+            accordionContainers.forEach((accordionContainer) => {
+                accordionContainer.classList.remove('accordion-open'); // Removes class 'accordion-open' from all containers
+            });
+
+            accordionContainer.classList.add('accordion-open'); // Adds class 'accordion-open' to this container
+            accordionContents[index].style.display = 'flex'; // Shows accordion content
+            accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+        }
+    });
+});
+
+/*
+Here's what the above is doing:
+    1. Selects all accordion containers, contents, and icons
+    2. Hides all accordion contents
+    3. Adds an event listener to each accordion container
+    4. When an accordion container is clicked, it:
+        - Hides all accordion contents
+        - Resets all icon transforms to 0deg (default)
+        - Checks if this container has class 'accordion-open'
+            - If it does, it removes class 'accordion-open'
+            - If it doesn't, it:
+                - Removes class 'accordion-open' from all containers
+                - Adds class 'accordion-open' to this container
+                - Shows accordion content
+                - Rotates accordion icon 180deg
+*/
+</script>"
+            ></dangerous-html>
+          </div>
+        </section>
+        <footer class="faq-footer">
+          <div class="faq-top">
+            <div class="faq-left1">
+              <span class="faq-text15">Get a call from us</span>
+              <div class="faq-subscription">
+                <input
+                  type="email"
+                  placeholder="Enter your phone number"
+                  class="faq-textinput input"
+                />
+                <div class="faq-subscribe">
+                  <span class="faq-text16">Call Me</span>
+                </div>
+              </div>
+              <span class="faq-text17">
+                By requesting a call back, you're giving our agents to access
+                your phone number.
+              </span>
+            </div>
+          </div>
+          <div class="faq-bottom">
+            <img
+              alt="pastedImage"
+              src="public/playground_assets/pastedimage-no9b-1500h.png"
+              class="faq-branding"
+            />
+            <span class="faq-text18">Copyright © Active - 2022</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

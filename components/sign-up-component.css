@@ -1,0 +1,98 @@
+.sign-up-component-card {
+  flex: 1;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: 40px;
+  border-radius: 50px;
+  padding-right: 40px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.sign-up-component-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-component-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.sign-up-component-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-component-container2 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.sign-up-component-container3 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.sign-up-component-container4 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up-component-sign-up {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.sign-up-component-sign-up:hover {
+  background-color: #5228F5;
+}
+.sign-up-component-text3 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+}
+.sign-up-component-root-class-name {
+  position: static;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 991px) {
+  .sign-up-component-card {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .sign-up-component-sign-up {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .sign-up-component-sign-up {
+    display: none;
+  }
+}

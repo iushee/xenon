@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Features - Active Online Software Page</title>
+    <meta
+      property="og:title"
+      content="Features - Active Online Software Page"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+      ></script>
+      <link href="./features.css" rel="stylesheet" />
+
+      <div class="features-container">
+        <section class="features-hero">
+          <div class="features-menu">
+            <div id="mobile-menu" class="features-mobile-navigation">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/pastedimage-no9b-1500h.png"
+                class="features-logo"
+              />
+              <div class="features-links">
+                <span class="Link">Solutions</span>
+                <span class="Link">How it works</span>
+                <span class="Link">Prices</span>
+              </div>
+              <div id="close-mobile-menu" class="features-close-mobile-menu">
+                <svg viewBox="0 0 804.5714285714286 1024" class="features-icon">
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="features-desktop-navigation">
+              <nav class="features-centered">
+                <div class="features-left">
+                  <a href="index.html" class="features-navlink">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pastedimage-no9b-1500h.png"
+                      class="features-logo1"
+                    />
+                  </a>
+                  <div class="features-links1">
+                    <a href="features.html" class="features-navlink1 Link">
+                      Features
+                    </a>
+                    <a href="prices.html" class="features-navlink2 Link">
+                      Prices
+                    </a>
+                    <a href="faq.html" class="features-navlink3 Link">FAQ</a>
+                  </div>
+                </div>
+                <div class="features-right">
+                  <a href="sign-in.html" class="features-sign-in Link">
+                    Log in
+                  </a>
+                  <div class="features-get-started">
+                    <a href="sign-up.html" class="features-navlink4">Sign Up</a>
+                  </div>
+                  <div id="open-mobile-menu" class="features-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pastedimage-yxbd.svg"
+                      class="features-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+              ></dangerous-html>
+            </div>
+          </div>
+        </section>
+        <section class="features-banners">
+          <div class="features-banner-manage">
+            <div class="features-container1">
+              <div class="features-left1">
+                <span class="sub-title">Content Management</span>
+                <span class="features-text04 title">
+                  Manage all your platforms in just one place.
+                </span>
+                <span class="features-text05">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  vv
+                </span>
+                <div class="features-get-started1 template-button">
+                  <span class="features-text06">Get started</span>
+                </div>
+              </div>
+              <div class="features-image-container">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/pastedimage-wvmq.svg"
+                  class="features-cards-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="features-banner-advanced-analytics">
+            <div class="features-centered-container">
+              <div class="features-image-container1">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/test.svg"
+                  class="features-cards-image1"
+                />
+              </div>
+              <div class="features-right1">
+                <span class="sub-title">Reporting Metrics</span>
+                <h2 class="features-text08 title">
+                  Advanced analytics, easy to understand.
+                </h2>
+                <div class="features-category">
+                  <span class="features-text09">Power reports</span>
+                  <span class="features-text10">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. vv
+                  </span>
+                  <span class="features-text11">Example -&gt;</span>
+                </div>
+                <div class="features-category1">
+                  <span class="features-text12">Power reports</span>
+                  <span class="features-text13">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. vv
+                  </span>
+                  <span class="features-text14">Example -&gt;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features-banner">
+            <div class="features-container2">
+              <div class="features-left2">
+                <span class="features-text15">Improve Scheduling</span>
+                <h2 class="features-text16 title">
+                  Powerful scheduler that saves you time
+                </h2>
+                <span class="features-text17">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  vv
+                </span>
+                <div class="features-get-started2 template-button">
+                  <span class="features-text18">Get started</span>
+                </div>
+              </div>
+              <div class="features-image-container2">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
+                  class="features-cards-image2"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features-integrations">
+          <div class="features-centered-container1">
+            <div class="features-heading">
+              <span class="sub-title">Integrations</span>
+              <span class="title">
+                Integrated with the tools you know and love
+              </span>
+              <span class="features-text21">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
+              </span>
+            </div>
+            <div class="features-pills-container">
+              <div class="features-pills">
+                <div class="features-container3">
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="/playground_assets/pastedimage-smjb.svg"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/group%201012-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/layer1-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/group-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                </div>
+                <div class="features-container4">
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pinterest%20logo-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/group%201014-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/group%201015-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                  <div class="you-tube-you-tube">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/group%201017-200h.png"
+                      class="you-tube-pasted-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features-how-it-works">
+          <div class="features-centered-container2">
+            <div class="features-heading1">
+              <span class="features-text22">How it works</span>
+              <span class="features-text23 title">
+                Being social and getting leads has never been easier
+              </span>
+            </div>
+            <div class="features-category2">
+              <div class="features-headng">
+                <span class="features-text24">1 — Sign up</span>
+                <span class="features-text25">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  vv
+                </span>
+                <div class="features-get-started3 template-button">
+                  <span class="features-text26">Get started</span>
+                </div>
+              </div>
+              <div class="features-container5">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/pastedimage-k5xi.svg"
+                  class="features-pasted-image"
+                />
+              </div>
+            </div>
+            <div class="features-row">
+              <div class="features-category3">
+                <div class="features-headng1">
+                  <span class="features-text27">2 — Act</span>
+                  <span class="features-text28">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. vv
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/pastedimage-ibg-1200w.png"
+                  class="features-pasted-image1"
+                />
+              </div>
+              <div class="features-category4">
+                <div class="features-headng2">
+                  <span class="features-text29">2 — Act</span>
+                  <span class="features-text30">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. vv
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/pastedimage-3c4o-1200w.png"
+                  class="features-pasted-image2"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features-action-bar">
+          <div class="features-action">
+            <div class="features-heading2">
+              <span class="features-text31 title">
+                <span>Get leads now&nbsp;</span>
+                <br />
+                <span>with Active!</span>
+              </span>
+              <span class="features-text35">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+              <div class="features-get-started4 template-button">
+                <span class="features-text36">
+                  <span>Start free</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="features-images">
+              <img
+                alt="image"
+                src="public/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
+                class="features-image"
+              />
+            </div>
+          </div>
+        </section>
+        <footer class="features-footer">
+          <div class="features-top">
+            <div class="features-left3">
+              <span class="features-text39">Get a call from us</span>
+              <div class="features-subscription">
+                <input
+                  type="email"
+                  placeholder="Enter your phone number"
+                  class="features-textinput input"
+                />
+                <div class="features-subscribe">
+                  <span class="features-text40">Call Me</span>
+                </div>
+              </div>
+              <span class="features-text41">
+                By requesting a call back, you're giving our agents to access
+                your phone number.
+              </span>
+            </div>
+          </div>
+          <div class="features-bottom">
+            <img
+              alt="pastedImage"
+              src="public/playground_assets/pastedimage-no9b-1500h.png"
+              class="features-branding"
+            />
+            <span class="features-text42">Copyright © Active - 2022</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
